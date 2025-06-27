@@ -1,29 +1,28 @@
-# Automatic Gate Unlocking System with Car Number Plate Recognition
+# 🚗 Automatic Gate Unlocking System using Car Number Plate Recognition
 
-This project uses Python and OpenCV to detect car number plates in real-time and unlocks the gate if the plate is authorized.
+This Python-based system uses OpenCV and Tesseract OCR to detect and recognize license plates of vehicles in real-time. If the detected number plate matches one in the authorized list, the gate is automatically unlocked. It simulates a smart security system for residential societies, offices, and parking zones.
 
-## Features
-- Real-time license plate detection
-- Unlocks gate on authorized plates
-- Stores detected plate images
-- Configurable list of authorized plates
+---
 
-## Requirements
-```bash
-pip install -r requirements.txt
-```
+## 📌 Features
 
-## Usage
-```bash
-python main.py
-```
+- 🔍 Real-time vehicle license plate detection via webcam  
+- 🧠 OCR-based number recognition using Tesseract  
+- ✅ Matches with authorized plates  
+- 🔓 Simulated gate unlock/lock mechanism  
+- 💾 Captures and saves plate images for logging  
+- 📁 Modular code design with expandability  
 
-## Files
-- `main.py`: Runs the whole system
-- `gate_controller.py`: Simulates gate control
-- `license_plate_detector.py`: Handles number plate detection
-- `authorized_plates.txt`: List of allowed number plates
+---
 
-## Dependencies
-- OpenCV
-- pytesseract
+## 🛠️ Technologies Used
+
+- Python 3  
+- OpenCV  
+- Pytesseract  
+- Haar Cascade Classifier (for number plate detection)  
+
+---
+
+## 🧱 Project Structure
+
